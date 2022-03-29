@@ -22,6 +22,10 @@ body{
     flex-direction: column;
 }
 
+.main-h1{
+    margin-left: 12px;
+}
+
 #main{
     border: #9198e5 solid 2px;
     border-radius: 4px;
@@ -33,7 +37,7 @@ body{
 input{
     width: 175px;
     outline: none;
-    margin-left: 6px;
+    margin-left: 8px;
     height: 30px;
     margin-top: 6px;
     padding-left: 6px;
@@ -59,7 +63,7 @@ h1{
 
 button{
     margin-top: 12px;
-    margin-left: 6px;
+    margin-left: 12px;
     border: 0px;
     border-radius: 4px;
     transition-duration: 0.4s;
@@ -67,7 +71,7 @@ button{
     color: white;
     font-size: 20px;
     height: 32px;
-    width: 80px;
+    width: 70px;
     cursor: pointer;
 }
 
@@ -90,6 +94,8 @@ p{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 80px;
+    height: 32px;
 }
 
 #register:focus{
